@@ -4,11 +4,6 @@
   </a>
 </h1>
 
-<p align="center">
-  <a href="https://github.com/beaprogram"><img src="https://komarev.com/ghpvc/?username=beaprogram&style=for-the-badge&color=58A6FF&label=Profile+Views" alt="Profile views" /></a>
-  <a href="https://github.com/beaprogram?tab=followers"><img src="https://img.shields.io/github/followers/beaprogram?style=for-the-badge&color=58A6FF&labelColor=0d1117" alt="Followers" /></a>
-  <a href="https://github.com/beaprogram?tab=repositories"><img src="https://img.shields.io/badge/Repos-28-58A6FF?style=for-the-badge&logo=github&labelColor=0d1117" alt="Repos" /></a>
-</p>
 
 ---
 
