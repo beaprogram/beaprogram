@@ -1,100 +1,55 @@
-<h1 align="center">
-  <a href="https://github.com/beaprogram">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Arup+Halder;Full-stack+%26+Mobile+Developer;Java+%E2%80%A2+Spring+Boot+%E2%80%A2+React+%E2%80%A2+TypeScript;React+Native+%E2%80%A2+Python+%E2%80%A2+SQL;I+build+data-driven+products+%26+AI+features" alt="Typing intro" />
-  </a>
-</h1>
+# Hi, I'm Arup Halder
 
+Master of Applied Computer Science student at Dalhousie University in Halifax, Canada.
 
----
+I build backend and full-stack products with Java, Spring Boot, TypeScript, React, Python, and PostgreSQL. My strongest work combines reliable APIs, data modelling, automated tests, and practical cloud deployment.
 
-### About me
+I am currently seeking software engineering opportunities in Canada, with a focus on backend, full-stack, and cloud development.
 
-- Full-stack and mobile developer building data-driven products and AI / RAG features.
-- Based in Halifax, Canada.
-- Currently shipping **Homebase** (full-stack housing intelligence) and **Joule-Ledger** (energy-data analytics).
-- Open to **SWE internships** and **new-grad roles** — full-stack, mobile, data engineering, or AI.
+## Featured work
 
----
+### [HFX Connect](https://github.com/beaprogram/hfx-connect)
 
-### Tech I work with
+A Halifax community-services directory in active development. The current backend includes a tested category REST API and resource persistence/business layer, with PostgreSQL/PostGIS, Flyway migrations, Testcontainers integration tests, and a milestone-based pull-request workflow.
 
-**Languages**
+`Java` `Spring Boot` `Next.js` `TypeScript` `PostgreSQL` `PostGIS` `Docker`
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+### [Homebase](https://github.com/beaprogram/Homebase)
 
-**Frontend & Mobile**
+A housing search platform with a React client, Spring Boot API, Python retrieval service, PostgreSQL/pgvector, dbt models, and local Docker orchestration. The repository separates the working Render/local setup from optional Azure infrastructure.
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+`React` `TypeScript` `Spring Boot` `FastAPI` `PostgreSQL` `Docker` `dbt`
 
-**Backend & APIs**
+### [Joule Ledger](https://github.com/beaprogram/Joule-Ledger)
 
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+An auditable Python-to-SQL pipeline and Streamlit dashboard for exploring program-level EfficiencyOne annual-report actuals. The current dataset covers 2022–2024 and includes reproducible validation, source mapping, and an explicit roadmap for plan-target ingestion.
 
-**Data & AI**
+`Python` `SQLite` `Streamlit` `Plotly` `pytest`
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Claude AI](https://img.shields.io/badge/Claude_AI-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+### [HFXAir](https://github.com/beaprogram/HFXAir)
 
-**Cloud & DevOps**
+A team-built airport mobile application with flight information, shop discovery, reservations, JWT authentication, and push-notification support.
 
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+`React Native` `TypeScript` `Flask` `MariaDB` `Firebase`
 
----
+### [DalPark](https://github.com/beaprogram/DalPark)
 
-### Featured projects
+A mobile parking assistant for Dalhousie University that combines campus lot data, crowdsourced reports, weather, routing, and a custom availability-scoring engine.
 
-| Project | Description | Stack |
-| :--- | :--- | :--- |
-| **[Homebase](https://github.com/beaprogram/Homebase)** | Full-stack housing intelligence platform for Toronto renters with natural-language search powered by RAG + Claude. | React, Spring Boot, Python, dbt, Azure |
-| **[Joule-Ledger](https://github.com/beaprogram/Joule-Ledger)** | Six-year audit of Efficiency Nova Scotia's plan vs. performance with weather-normalized savings. | Python, SQLite, Power BI |
-| **[HFXAir](https://github.com/beaprogram/HFXAir)** | Mobile app for Halifax airport with real-time flights, shop directory, and reservations. | React Native, FastAPI, Firebase |
-| **[DalPark](https://github.com/beaprogram/DalPark)** | Crowdsourced parking finder for Dalhousie University with a prediction engine. | React Native, Firebase, Google Maps |
-| **[EazyByts-Final-Project](https://github.com/beaprogram/EazyByts-Final-Project)** | PHP/MySQL fitness platform with an admin panel, built during my EazyByts internship. | PHP, MySQL, JavaScript |
-| **[Winter-Cloud-Dispatch-System](https://github.com/beaprogram/Winter-Cloud-Dispatch-System)** | Dispatch management application with a clean TypeScript codebase. | React, TypeScript |
+`Expo` `React Native` `Firebase` `Google Maps`
 
----
+## Core toolkit
 
-### GitHub stats
+- **Backend:** Java, Spring Boot, Python, Flask, FastAPI, REST, OpenAPI
+- **Frontend and mobile:** TypeScript, React, Next.js, React Native, Expo
+- **Data:** PostgreSQL, PostGIS, SQLite, SQL, dbt
+- **Delivery:** Docker, GitHub Actions, Render, Terraform
+- **Quality:** JUnit, Mockito, Testcontainers, pytest, Jest, Vitest, Playwright
 
-<p align="center">
-  <a href="https://github.com/beaprogram">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=beaprogram&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-  </a>
-</p>
+## How I work
 
-<p align="center">
-  <a href="https://github.com/beaprogram">
-    <img src="https://github-profile-trophy.vercel.app/?username=beaprogram&theme=tokyonight&no-frame=true&column=7&margin-w=8" alt="GitHub trophies" />
-  </a>
-</p>
+I prefer small, reviewable changes; explicit architecture decisions; tests that exercise real boundaries; and documentation that distinguishes shipped behavior from planned work. HFX Connect shows my current branch, pull-request, and milestone workflow.
 
----
+## Connect
 
-### Get in touch
-
-<p>
-  <a href="https://www.linkedin.com/in/arup-halder"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:aruphalder4602@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-</p>
-
-<p align="center"><i>Thanks for stopping by — feel free to star a repo if something catches your eye.</i></p>
+[LinkedIn](https://www.linkedin.com/in/arup-halder) · [Email](mailto:aruphalder4602@gmail.com)
