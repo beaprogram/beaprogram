@@ -2,6 +2,8 @@
 
 Master of Applied Computer Science student at Dalhousie University in Halifax, Canada.
 
+Portfolio: https://beaprogram.github.io/
+
 I build backend and full-stack products with Java, Spring Boot, TypeScript, React, Python, and PostgreSQL. My strongest work combines reliable APIs, data modelling, automated tests, and practical cloud deployment.
 
 I am currently seeking software engineering opportunities in Canada, with a focus on backend, full-stack, and cloud development.
