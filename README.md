@@ -12,7 +12,7 @@ Master of Applied Computer Science student at **Dalhousie University**, based in
 Marine-debris detection with video-disjoint data splits, model comparison, and a FastAPI inference service. Compared FP32 and INT8 ONNX deployment: model files shrink from **12.14 MB to 3.35 MB**, with accuracy and CPU-latency tradeoffs documented.
 
 **Python · PyTorch · ONNX Runtime · FastAPI**  
-[Try the demo](https://oceansight-edge.streamlit.app/) · [Measured results and limitations](https://github.com/beaprogram/OceanSight/blob/main/docs/RESULTS.md)
+[Run the demo](https://github.com/beaprogram/OceanSight#quick-start-for-reviewers) · [Measured results and limitations](https://github.com/beaprogram/OceanSight/blob/main/docs/RESULTS.md)
 
 ### [DecisionRail — reliable Java backend](https://github.com/beaprogram/Decision-Rail)
 A synthetic payment system built around safe retries, concurrent requests, and balanced accounting. Includes durable idempotency, a transactional outbox, ordered Kafka delivery, and integration tests for broker outages and recovery.
