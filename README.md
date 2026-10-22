@@ -1,57 +1,47 @@
 # Hi, I'm Arup Halder
 
-Master of Applied Computer Science student at Dalhousie University in Halifax, Canada.
+I build **AI applications and backend services** with Python and Java, focusing on model evaluation, reliable APIs, and data correctness.
 
-Portfolio: https://beaprogram.github.io/
+Master of Applied Computer Science student at **Dalhousie University**, based in **Halifax, Canada**. Open to **junior AI engineering and backend software engineering roles in Canada**.
 
-I build backend and full-stack products with Java, Spring Boot, TypeScript, React, Python, and PostgreSQL. My strongest work combines reliable APIs, data modelling, automated tests, and practical cloud deployment.
+[Portfolio](https://beaprogram.github.io/) · [LinkedIn](https://www.linkedin.com/in/arup-halder) · [Email](mailto:aruphalder4602@gmail.com)
 
-I am currently seeking software engineering opportunities in Canada, with a focus on backend, full-stack, and cloud development.
+## Selected projects
 
-## Featured work
+### [OceanSight — applied computer vision](https://github.com/beaprogram/OceanSight)
+Marine-debris detection with video-disjoint data splits, model comparison, and a FastAPI inference service. Compared FP32 and INT8 ONNX deployment: model files shrink from **12.14 MB to 3.35 MB**, with accuracy and CPU-latency tradeoffs documented.
 
-### [HFX Connect](https://github.com/beaprogram/hfx-connect)
+**Python · PyTorch · ONNX Runtime · FastAPI**  
+[Try the demo](https://oceansight-edge.streamlit.app/) · [Measured results and limitations](https://github.com/beaprogram/OceanSight/blob/main/docs/RESULTS.md)
 
-A Halifax community-services directory in active development. The current backend includes a tested category REST API and resource persistence/business layer, with PostgreSQL/PostGIS, Flyway migrations, Testcontainers integration tests, and a milestone-based pull-request workflow.
+### [DecisionRail — reliable Java backend](https://github.com/beaprogram/Decision-Rail)
+A synthetic payment system built around safe retries, concurrent requests, and balanced accounting. Includes durable idempotency, a transactional outbox, ordered Kafka delivery, and integration tests for broker outages and recovery.
 
-`Java` `Spring Boot` `Next.js` `TypeScript` `PostgreSQL` `PostGIS` `Docker`
+**Java · Spring Boot · PostgreSQL · Kafka**  
+[Architecture](https://github.com/beaprogram/Decision-Rail/blob/main/docs/architecture.md) · [Verification evidence](https://github.com/beaprogram/Decision-Rail/blob/main/docs/verification.md) · [Recorded walkthrough](https://github.com/beaprogram/Decision-Rail/releases/tag/v0.10.0)
 
-### [Homebase](https://github.com/beaprogram/Homebase)
+### [Homebase — retrieval-augmented housing search](https://github.com/beaprogram/Homebase)
+A housing-search application connecting a React interface and Spring Boot API to a Python retrieval service. Uses sentence embeddings, PostgreSQL/pgvector, and Claude to answer questions using retrieved listing context.
 
-A housing search platform with a React client, Spring Boot API, Python retrieval service, PostgreSQL/pgvector, dbt models, and local Docker orchestration. The repository separates the working Render/local setup from optional Azure infrastructure.
+**Python · FastAPI · pgvector · Spring Boot · React**  
+[AI service](https://github.com/beaprogram/Homebase/tree/main/ai-service) · [API tests](https://github.com/beaprogram/Homebase/blob/main/ai-service/app/tests/test_ask.py)
 
-`React` `TypeScript` `Spring Boot` `FastAPI` `PostgreSQL` `Docker` `dbt`
+### [HFX Connect — community-services backend](https://github.com/beaprogram/hfx-connect)
+An actively developed Halifax services directory with PostGIS nearby search, authenticated sessions, and moderated community contributions. Database integration tests cover authorization, ownership, and concurrent moderation decisions.
 
-### [Joule Ledger](https://github.com/beaprogram/Joule-Ledger)
+**Java · Spring Boot · PostgreSQL/PostGIS · Next.js · Testcontainers**  
+[API documentation](https://github.com/beaprogram/hfx-connect/blob/main/docs/api/README.md) · [Integration tests](https://github.com/beaprogram/hfx-connect/tree/main/backend/src/test/java/com/hfxconnect)
 
-An auditable Python-to-SQL pipeline and Streamlit dashboard for exploring program-level EfficiencyOne annual-report actuals. The current dataset covers 2022–2024 and includes reproducible validation, source mapping, and an explicit roadmap for plan-target ingestion.
+## More engineering work
 
-`Python` `SQLite` `Streamlit` `Plotly` `pytest`
+- **[Agent Platform](https://github.com/beaprogram/agent-platform)** — AWS coursework: a Python agent loop, document ingestion and semantic retrieval, with Lambda, DynamoDB, Cognito, and Terraform.
+- **[Joule Ledger](https://github.com/beaprogram/Joule-Ledger)** — Python/SQLite pipeline and Streamlit dashboard for 2022–2024 energy-program actuals, with source traceability and data validation.
 
-### [HFXAir](https://github.com/beaprogram/HFXAir)
+## Tools I use
 
-A team-built airport mobile application with flight information, shop discovery, reservations, JWT authentication, and push-notification support.
+**AI & backend:** Python, FastAPI, Java, Spring Boot, REST APIs  
+**Data:** PostgreSQL, pgvector, PostGIS, SQL  
+**Testing & delivery:** pytest, JUnit, Testcontainers, Docker, GitHub Actions  
+**Interfaces:** TypeScript, React, Next.js
 
-`React Native` `TypeScript` `Flask` `MariaDB` `Firebase`
-
-### [DalPark](https://github.com/beaprogram/DalPark)
-
-A mobile parking assistant for Dalhousie University that combines campus lot data, crowdsourced reports, weather, routing, and a custom availability-scoring engine.
-
-`Expo` `React Native` `Firebase` `Google Maps`
-
-## Core toolkit
-
-- **Backend:** Java, Spring Boot, Python, Flask, FastAPI, REST, OpenAPI
-- **Frontend and mobile:** TypeScript, React, Next.js, React Native, Expo
-- **Data:** PostgreSQL, PostGIS, SQLite, SQL, dbt
-- **Delivery:** Docker, GitHub Actions, Render, Terraform
-- **Quality:** JUnit, Mockito, Testcontainers, pytest, Jest, Vitest, Playwright
-
-## How I work
-
-I prefer small, reviewable changes; explicit architecture decisions; tests that exercise real boundaries; and documentation that distinguishes shipped behavior from planned work. HFX Connect shows my current branch, pull-request, and milestone workflow.
-
-## Connect
-
-[LinkedIn](https://www.linkedin.com/in/arup-halder) · [Email](mailto:aruphalder4602@gmail.com)
+My project documentation includes setup instructions, design decisions, tests, and known limitations so you can inspect the engineering behind each project.
